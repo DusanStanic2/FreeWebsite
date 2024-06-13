@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vezbe 1</title>
+    <link type="text/css" rel="stylesheet" href="index.css">
+
+</head>
+<body>
+<nav>
+    <a href="Task1.html">Task 1</a>
+
+    <a href="Task2.html">Task 2</a>
+
+    <a href="Task3.html">Task 3</a>
+
+    <a href="Task4.html">Task 4</a>
+    <br>
+    Zadaci tabele:
+
+    <a href="Tabela1.html">Tabele 1</a>
+    <a href="Tabela2.html">Tabela2</a>
+    <a href="Tabela3.html">Tabela3</a>
+    <br>
+    Zadaci forme:
+    <a href="Forme1.html">Forme1</a>
+    <a href="forme2.html">Forme2</a>
+    <a href="forme3.html">Forme3</a>
+    <br>
+    Zadaci CSS:
+    <a href="biografija.html">Biografija</a>
+    <a href="flex.html">Float/Flex</a>
+
+
+
+</nav>
+
+<h1>Ruby </h1>
+
+
+<p>
+    <b>Ruby</b> is an interpreted, high-level, general-purpose programming language which supports multiple programming paradigms. <br>
+    It was designed with an emphasis on programming productivity and simplicity.
+    <br> In Ruby, everything is an object, including primitive data types. <br> It was developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
+    <br>
+    <br>
+<p>
+    Ruby is dynamically typed and uses garbage collection and just-in-time compilation.<br>
+    It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. <br>
+    According to the creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, BASIC, Java, and Lisp.
+</p>
+
+
+<h2>
+  <ins>Istorija</ins>
+</h2>
+
+<p>Matsumoto has said that Ruby was conceived in 1993. In a 1999 post to the ruby-talk mailing list, he describes some of his early ideas about the language:</p>
+<blockquote>I was talking with my colleague about the possibility of an object-oriented scripting language. <br>
+    <var>I knew Perl (Perl4, not Perl5), but I didn't like it really, because it had the smell of a toy language (it still has).</var><br>
+    The object-oriented language seemed very promising. I knew Python then. But I didn't like it, because I didn't think it was a true object-oriented language – OO features appeared to be add-on to the language. <br>
+    As a language maniac and OO fan for 15 years, I really wanted a genuine object-oriented, easy-to-use scripting language. I looked for but couldn't find one. So I decided to make it.
+    <br><cite>https://en.wikipedia.org/wiki/Ruby_(programming_language)</cite></blockquote>
+<p>
+    The name "<sub>Ruby</sub>" originated during an online chat session between Matsumoto and Keiju Ishitsuka on February 24, 1993, before any code had been written for the language.
+    <br>
+    <sup>Initially two names were proposed: "Coral" and "Ruby". Matsumoto chose the latter in a later e-mail to Ishitsuka.</sup>
+    <br>
+    <dfn>Matsumoto later noted a factor in choosing the name "Ruby" –it was the birthstone of one of his colleagues.</dfn>
+
+</p>
+
+
+
+<p>
+   <em> Matasumo describing why he created new programming language, and wherre he got the inspiration for the name.</em>
+</p>
+<h2>
+    Značaj
+</h2>
+
+<p>Ruby on Rails, Ruby’s web framework, is one of the most popular web development frameworks in any language.
+    <br>
+    Although Ruby is probably most famous for its use in web development, it has many other uses, too.
+    <br>
+    Some of these include automation, command-line tools, static site generation, DevOps, web scraping, and data processing.
+    <br>
+    <br>
+    Perhaps most importantly, Ruby is a highly versatile and portable language. It can be used just as easily on Windows, macOS, Linux, and even UNIX and DOS.
+    <br>
+    No matter what programming job you want to get done, there’s a gold chance you can do it in Ruby.
+</p>
+
+<strong>In this example we want to find out if given an array of unique numbers, there is a combination of two numbers which adds up to a target number.</strong>
+<code>
+<pre> def sum_eq_n?(arr, n)
+         return true if arr.empty? && n == 0
+         arr.product(arr).reject { |a,b| a == b }.any? { |a,b| a + b == n }
+      end
+</pre>
+</code>
+
+This is interesting because I’m using the <code>product</code> method here.
+<br>When you use this method is like having a loop inside a loop that combines all values in array A with all values in array B.
+
+<h2>Primeri</h2>
+<i>Write a program to create a class with data members and initialize using initialize() method.</i>
+Solution:<br>
+In this program, we will create a class Student that contains 3 data members id, name, and fee.
+<br>Then we will define the initialize() method to initialize the data members and we will also create a PrintStudentInfo() method to print student information.
+<pre><small># Ruby program to create a class with data members
+# and initialize using initialize() method</small>
+
+class Student
+    def initialize(id, name, fee)
+        @id   = id;
+        @name = name;
+        @fee  = fee;
+    end
+
+    def PrintStudentInfo()
+        print "Student Id:   ",@id,"\n";
+        print "Student Name: ",@name,"\n";
+        print "Student Fee:  ",@fee,"\n";
+    end
+end
+
+obj = Student.new(101,"Rahul", 5000);
+
+obj.PrintStudentInfo();
+</pre>
+<mark>Output:</mark>
+<pre>
+   Student Id:   101
+Student Name: Rahul
+Student Fee:  5000
+
+    <del> Greska</del>
+</pre>
+Explanation:
+<p><br>In the above program, we created a class called Student. The Student class contains data member's id, name, and fee.
+    <br>Then we defined the initialize() method to initialize the data members and we also created a PrintStudentInfo() method to print student information.
+    <br>Then we created the object of the class and initialized the data members and called PrintStudentInfo() method to print student information.
+</p>
+
+<samp>RubyGems is Ruby's package manager. A Ruby package is called a "gem" and can be installed via the command line. <br>
+
+    Most gems are libraries, though a few exist that are applications, such as IDEs. There are over 100,000 Ruby gems hosted on RubyGems.org.
+</samp>
+<br>
+<br>
+<abbr>Many new and existing Ruby libraries are hosted on GitHub, a service that offers version control repository hosting for Git.
+<br>
+    The Ruby Application Archive, which hosted applications, documentation, and libraries for Ruby programming, was maintained until 2013, when its function was transferred to RubyGems.
+</abbr>
+<hr>
+
+<address>Dušan Stanić, 060 124 5678</address>
+
+
+<p>Save the page by pressing <kbd>Ctrl + S</kbd></p>
+</body>
+</html>

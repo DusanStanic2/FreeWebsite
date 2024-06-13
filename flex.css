@@ -1,0 +1,111 @@
+body{
+    background-image: url("FootbalPitch.jpg");
+    background-size: cover;
+    background-position: top;
+}
+.container{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    width: 90%;
+    height: 300px;
+    justify-content: space-evenly;
+    background-color: yellow;
+    align-items: center;
+
+}
+
+.element {
+    width: 40%;
+    margin: 10px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    color: yellow;
+    background-color: green;
+
+}
+
+.container1{
+    display: flex;
+    position: absolute;
+    top: 600px;
+    left: 60px;
+    width: 90%;
+    height: 300px;
+    justify-content: space-between;
+    align-items: start;
+    background-color: yellow;
+
+}
+
+.element1 {
+    width: 40%;
+    margin: 10px;
+    margin-left: 140px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    color: yellow;
+    background-color: green;
+}
+
+.elementx {
+    width: fit-content;
+    margin-right: 190px;
+    height: 300px;
+    position: relative;
+    left: 20px;
+    box-sizing: border-box;
+}
+
+.container2{
+    display: flex;
+    position: absolute;
+    top: 1200px;
+    left: 60px;
+    width: 90%;
+    height: 300px;
+    justify-content: space-between;
+    align-items: start;
+    background-color: yellow;
+}
+
+.element2 {
+    width: 40%;
+    margin: 10px;
+    margin-left: 140px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    color: yellow;
+    background-color: green;
+}
+
+.elementy {
+    width: fit-content;
+    margin-right: 190px;
+    height: 300px;
+    position: relative;
+    left: 20px;
+    box-sizing: border-box;
+}
+
+.bottom{
+    display: flex;
+    position: absolute;
+    top: 2500px;
+    left: 60px;
+    width: 90%;
+    height: 300px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+#bottom{
+    margin-bottom: 62px;
+
+}
+
+img {
+    height: 280px;
+    width: 350px;
+    margin: 10px;
+}

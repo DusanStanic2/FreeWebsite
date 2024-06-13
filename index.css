@@ -1,0 +1,42 @@
+body {
+    background-color:lightgray;
+
+}
+
+.head {
+    background-color:#4ADE25;
+    background-image: url("Owner2.jpg");
+    background-repeat:no-repeat;
+    background-position:right ;
+    background-attachment:scroll;
+
+}
+a:link {
+    color: darkblue;
+
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: #f00;
+    font-size: larger;
+    color: #4ADE25;
+}
+nav{
+    background-color:#4ADE25;
+    background-image: url("Owner2.jpg");
+    background-repeat:no-repeat;
+    background-position:right ;
+    background-attachment:scroll;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
